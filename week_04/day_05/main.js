@@ -11,7 +11,9 @@ var hamlets = [
 
 // Scene I
 // Use .forEach to print out "O! the venerable [Actor] starred as Hamlet in [Year]"
-console.log("Scene I ---------------------------");
+hamlets.forEach(element => {
+    console.log("Scene I O! the venerable [Actor] starred as Hamlet in [Year]");
+})
 
 // Scene II
 //Programatically convert the hamlets array into an array of arrays where the
